@@ -1,1 +1,1 @@
-# cindy-portfolio
+# cindy-gwc-portfolio
