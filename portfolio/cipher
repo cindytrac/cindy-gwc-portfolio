@@ -1,0 +1,38 @@
+#Name: Mallory Grider
+#Modified by:
+#Date: July 27, 2017
+
+#1. ord(): returns the ASCII value of a character
+#2. chr(): takes in an ASCII value and returns the character
+#3. isalpha(): detects if input is a character in the alphabet
+#4. find(): """
+
+
+plaintext = input()
+
+def encode(plaintext, shift_num):
+
+	#Your code here
+
+	print("Your ciphertext is: ")
+	print(cipherText)
+
+#Brute force method; checks against every possible shift (does not have access to a key)+
+
+def decode(ciphertext):
+
+	#Your code
+
+user_input = str(input("Would you like to encode or decode a message?"))
+plaintext = ""
+shift_num = 0
+
+if (user_input == "encode"):
+	plaintext = input("What is your message?")
+	shift_num = int(input("What would you like to shift the message by?"))
+	encode(plaintext, shift_num)
+elif (user_input == "decode"):
+	ciphertext = input("What is your ciphertext?")
+	decode(ciphertext)
+else:
+	print("Please input 'encode' or 'decode'")
